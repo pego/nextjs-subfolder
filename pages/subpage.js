@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -18,8 +19,8 @@ export default function Home() {
 
         <div className={styles.description}>
          <ul>
-         <li><a href="/">Link to root project root page</a></li>
-         <li><a href="/subfolder/subpage">Link to subfolder project sub page</a></li>
+         <li><Link href="/">Link to root project root page</Link></li>
+         <li><Link href="/subfolder/subpage">Link to subfolder project sub page</Link></li>
          </ul>
         </div>
       </main>
