@@ -19,7 +19,7 @@ export default function Home() {
 
         <div className={styles.description}>
          <ul>
-         <li><Link href="/subfolder/subpage">Link to subfolder project sub page</Link></li>
+         <li><Link href="/subpage">Link to subfolder project sub page</Link></li>
          <li><Link href="/">Link to root project root page</Link></li>
          </ul>
         </div>
