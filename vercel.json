@@ -8,7 +8,7 @@
               "value": "nextjs-subfolder.vercel.app"
             }
           ],
-          "destination": "/spring-summer-2023-fashion-show/:path*"
+          "destination": "https://nextjs-root.vercel.app/spring-summer-2023-fashion-show/:path*"
         }
       ],
     "trailingSlash": true
