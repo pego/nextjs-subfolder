@@ -1,3 +1,15 @@
 {
+    "rewrites": [
+        {
+          "source": "/:path*",
+          "has": [
+            {
+              "type": "host",
+              "value": "nextjs-subfolder.vercel.app"
+            }
+          ],
+          "destination": "/spring-summer-2023-fashion-show/:path*"
+        }
+      ],
     "trailingSlash": true
 }
