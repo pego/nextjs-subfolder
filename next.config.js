@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/subfolder',
+  basePath: '/spring-summer-2023-fashion-show',
   trailingSlash: true,
 }
 
