@@ -20,7 +20,7 @@ export default function Home() {
         <div className={styles.description}>
          <ul>
          <li><Link href="/">Link to brand-platform project root page</Link></li>
-         <li><Link href="/">Link to e-commerce project root page</Link></li>
+         <li><Link href="https://nextjs-root.vercel.app/subpage/">Link to e-commerce project subpage page</Link></li>
          </ul>
         </div>
       </main>
