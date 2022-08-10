@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   basePath: '/spring-summer-2023-fashion-show',
-  trailingSlash: true,
+  //trailingSlash: true,
 }
 
 module.exports = nextConfig
